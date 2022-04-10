@@ -1,0 +1,77 @@
+digraph G                                                                                          
+{                                                                                                  
+		bgcolor  = "#FFFFFF"                                                                         
+		compound = true                                                                                
+		newrank  = true                                                                                
+		graph[splines = polyline, nodesep = 0.3, ranksep = 1, rankdir = TB]                            
+		node[shape = record, style = "filled", penwidth = 2, color = "#000000", margin = 0.04,     
+		fontcolor = "#000000", fontsize = 12, fillcolor = "#FFFFFF", fontname = "Arial"]         
+		edge[arrowsize = 0.7, style = solid, penwidth = 1.1, color = "#CCCCCC"]                    
+
+		Node0x60000065d3c0[label = "*"]
+		Node0x60000065d3c0 -> Node0x60000065d300[color = "black", fontname = "Arial"]
+
+		Node0x60000065d300[label = "*"]
+		Node0x60000065d300 -> Node0x60000065d120[color = "black", fontname = "Arial"]
+
+		Node0x60000065d120[label = "1 "]
+
+		Node0x60000065d300 -> Node0x60000065d2e0[color = "black", fontname = "Arial"]
+
+		Node0x60000065d2e0[label = "*"]
+		Node0x60000065d2e0 -> Node0x60000065d1e0[color = "black", fontname = "Arial"]
+
+		Node0x60000065d1e0[label = "ln"]
+		Node0x60000065d1e0 -> Node0x60000065d200[color = "black", fontname = "Arial"]
+
+		Node0x60000065d200[label = "e "]
+
+
+		Node0x60000065d2e0 -> Node0x60000065d2c0[color = "black", fontname = "Arial"]
+
+		Node0x60000065d2c0[label = "^"]
+		Node0x60000065d2c0 -> Node0x60000065d220[color = "black", fontname = "Arial"]
+
+		Node0x60000065d220[label = "x "]
+
+		Node0x60000065d2c0 -> Node0x60000065d2a0[color = "black", fontname = "Arial"]
+
+		Node0x60000065d2a0[label = "-"]
+		Node0x60000065d2a0 -> Node0x60000065d240[color = "black", fontname = "Arial"]
+
+		Node0x60000065d240[label = "ln"]
+		Node0x60000065d240 -> Node0x60000065d260[color = "black", fontname = "Arial"]
+
+		Node0x60000065d260[label = "e "]
+
+
+		Node0x60000065d2a0 -> Node0x60000065d280[color = "black", fontname = "Arial"]
+
+		Node0x60000065d280[label = "1 "]
+
+
+
+
+
+		Node0x60000065d3c0 -> Node0x60000065d3a0[color = "black", fontname = "Arial"]
+
+		Node0x60000065d3a0[label = "cos"]
+		Node0x60000065d3a0 -> Node0x60000065d320[color = "black", fontname = "Arial"]
+
+		Node0x60000065d320[label = "^"]
+		Node0x60000065d320 -> Node0x60000065d340[color = "black", fontname = "Arial"]
+
+		Node0x60000065d340[label = "x "]
+
+		Node0x60000065d320 -> Node0x60000065d360[color = "black", fontname = "Arial"]
+
+		Node0x60000065d360[label = "ln"]
+		Node0x60000065d360 -> Node0x60000065d380[color = "black", fontname = "Arial"]
+
+		Node0x60000065d380[label = "e "]
+
+
+
+
+
+}
