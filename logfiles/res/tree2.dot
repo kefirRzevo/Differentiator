@@ -8,38 +8,14 @@ digraph G
 		fontcolor = "#000000", fontsize = 12, fillcolor = "#FFFFFF", fontname = "Arial"]         
 		edge[arrowsize = 0.7, style = solid, penwidth = 1.1, color = "#CCCCCC"]                    
 
-		Node0x600000274100[label = "*"]
-		Node0x600000274100 -> Node0x600000274000[color = "black", fontname = "Arial"]
-
-		Node0x600000274000[label = "1 "]
-
-		Node0x600000274100 -> Node0x6000002740e0[color = "black", fontname = "Arial"]
-
 		Node0x6000002740e0[label = "*"]
 		Node0x6000002740e0 -> Node0x600000274020[color = "black", fontname = "Arial"]
 
 		Node0x600000274020[label = "2 "]
 
-		Node0x6000002740e0 -> Node0x6000002740c0[color = "black", fontname = "Arial"]
-
-		Node0x6000002740c0[label = "^"]
-		Node0x6000002740c0 -> Node0x600000274040[color = "black", fontname = "Arial"]
+		Node0x6000002740e0 -> Node0x600000274040[color = "black", fontname = "Arial"]
 
 		Node0x600000274040[label = "x "]
-
-		Node0x6000002740c0 -> Node0x6000002740a0[color = "black", fontname = "Arial"]
-
-		Node0x6000002740a0[label = "-"]
-		Node0x6000002740a0 -> Node0x600000274060[color = "black", fontname = "Arial"]
-
-		Node0x600000274060[label = "2 "]
-
-		Node0x6000002740a0 -> Node0x600000274080[color = "black", fontname = "Arial"]
-
-		Node0x600000274080[label = "1 "]
-
-
-
 
 
 }

@@ -6,11 +6,11 @@ static int variable_location(Node* p_node, char variable);
 
 static Node* find_variable(Node* p_node, char variable);
 
+static Node* node_dif(Node* n, char variable);
+
 static Node* new_num_node(double num);
 
 static Node* new_oper_node(OperType type, Node* lnode, Node* rnode);
-
-static Node* node_dif(Node* p_node, char variable);
 
 
 enum var_location
@@ -131,15 +131,15 @@ static Node* node_dif(Node* n, char variable)
 
 #undef L     
 #undef R     
-#undef C(X)  
-#undef D(X)  
-#undef NUM(X)
+#undef C  
+#undef D  
+#undef NUM
 
-#undef ADD(X, Y)
-#undef SUB(X, Y)
-#undef MUL(X, Y)
-#undef DIV(X, Y)
-#undef OPER(OP, X, Y)
+#undef ADD
+#undef SUB
+#undef MUL
+#undef DIV
+#undef OPER
 
 
 Tree* differentiate(Tree* p_tree, char variable)
@@ -148,6 +148,8 @@ Tree* differentiate(Tree* p_tree, char variable)
 
     Tree* new_tree = nullptr;
     tree_ctor(&new_tree);
+
     new_tree->root = node_dif(p_tree->root, variable);
+    new_tree->size = count_tree_size(new_tree->root);
     return new_tree;
 }

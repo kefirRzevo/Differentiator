@@ -150,7 +150,7 @@ static void print_nodes(Node* tree_node, FILE* const dotfile)
     char temp_str[5] = {}; 
     switch(tree_node->Type)
     {
-        case NUM:   fprintf(dotfile, "\t\tNode%p[label = \"%" NUM_SPEC " \"]\n", tree_node, tree_node->Value.number);
+        case NUM:   fprintf(dotfile, "\t\tNode%p[label = \"%.2" NUM_SPEC " \"]\n", tree_node, tree_node->Value.number);
                     break;
         case OPER:  oper_name(temp_str, tree_node);
                     fprintf(dotfile, "\t\tNode%p[label = \"%" OPER_SPEC "\"]\n", tree_node, temp_str);

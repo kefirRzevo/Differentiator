@@ -7,6 +7,7 @@
 #include <assert.h>
 
 #include "parser.h"
+#include "optimizer.h"
 
 
 Tree* differentiate(Tree* p_tree, char variable);

@@ -60,3 +60,31 @@ Node* node_cpy(Node* p_node)
     }
     return new_node;
 }
+
+
+void tree_visit(Node* p_node, void(*function)(Node*))
+{
+    if(!p_node)
+        return;
+
+    function(p_node);
+
+    if(p_node->Left)
+        tree_visit(p_node->Left,  function);
+    if(p_node->Right)
+        tree_visit(p_node->Right, function);
+}
+
+
+size_t count_tree_size(Node* p_node)
+{
+    if(p_node->Left && p_node->Right)
+        return count_tree_size(p_node->Left) + count_tree_size(p_node->Right);
+
+    if(p_node->Left)
+        count_tree_size(p_node->Left);
+    if(p_node->Right)
+        count_tree_size(p_node->Right);
+    
+    return 1;
+}
