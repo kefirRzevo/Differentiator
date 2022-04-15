@@ -81,6 +81,7 @@ FILE* tex_open()
                             "\t\t\\vspace{1.5cm}                                        \n"
                             "\t\t\\includegraphics[width = 10 cm]{imgs/petrovich.png}   \n"
                             "\t\t\\begin{minipage}{10cm}                                \n"
+                            "\t\t\\vspace*{2cm}                                         \n"
                             "\t\t\t\\begin{center}                                      \n"
                             "\t\t\t\tИз МФТИ, с любовью                                 \n"
                             "\t\t\t\\end{center}                                        \n"
