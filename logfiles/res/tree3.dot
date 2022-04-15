@@ -17,17 +17,5 @@
 		compound  = true;
 		newrank   = true;
 
-		Node0x600001f61140[label = "d"]
-		Node0x600001f61140 -> Node0x600001f61160
-
-		Node0x600001f61160[label = "^"]
-		Node0x600001f61160 -> Node0x600001f61180
-
-		Node0x600001f61180[label = "x"]
-		Node0x600001f61160 -> Node0x600001f611a0
-
-		Node0x600001f611a0[label = "2"]
-		Node0x600001f61140 -> Node0x600001f611c0
-
-		Node0x600001f611c0[label = "x"]
+		Node0x600001f64060[label = "2"]
 	}

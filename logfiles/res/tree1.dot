@@ -1,45 +1,33 @@
-digraph G                                                                                          
-{                                                                                                  
-		bgcolor  = "#FFFFFF"                                                                         
-		compound = true                                                                                
-		newrank  = true                                                                                
-		graph[splines = polyline, nodesep = 0.3, ranksep = 1, rankdir = TB]                            
-		node[shape = record, style = "filled", penwidth = 2, color = "#000000", margin = 0.04,     
-		fontcolor = "#000000", fontsize = 12, fillcolor = "#FFFFFF", fontname = "Arial"]         
-		edge[arrowsize = 0.7, style = solid, penwidth = 1.1, color = "#CCCCCC"]                    
+	digraph
+	{
+		edge [color     = darkgrey]
+		edge [arrowsize = 1.6]
+		edge [penwidth  = 1.2]
 
-		Node0x600000274100[label = "*"]
-		Node0x600000274100 -> Node0x600000274000[color = "black", fontname = "Arial"]
+		graph [penwidth = 2]
+		graph [ranksep  = 1.3]
+		graph [nodesep  = 0.5]
+		graph [style    = "filled"]
+		graph [color    = green, fillcolor = lightgreen]
 
-		Node0x600000274000[label = "1 "]
+		node [penwidth = 2]
+		node [shape    = box]
+		node [color    = black, fillcolor = white]
 
-		Node0x600000274100 -> Node0x6000002740e0[color = "black", fontname = "Arial"]
+		compound  = true;
+		newrank   = true;
 
-		Node0x6000002740e0[label = "*"]
-		Node0x6000002740e0 -> Node0x600000274020[color = "black", fontname = "Arial"]
+		Node0x600001f61140[label = "d"]
+		Node0x600001f61140 -> Node0x600001f61160
 
-		Node0x600000274020[label = "2 "]
+		Node0x600001f61160[label = "^"]
+		Node0x600001f61160 -> Node0x600001f61180
 
-		Node0x6000002740e0 -> Node0x6000002740c0[color = "black", fontname = "Arial"]
+		Node0x600001f61180[label = "x"]
+		Node0x600001f61160 -> Node0x600001f611a0
 
-		Node0x6000002740c0[label = "^"]
-		Node0x6000002740c0 -> Node0x600000274040[color = "black", fontname = "Arial"]
+		Node0x600001f611a0[label = "2"]
+		Node0x600001f61140 -> Node0x600001f611c0
 
-		Node0x600000274040[label = "x "]
-
-		Node0x6000002740c0 -> Node0x6000002740a0[color = "black", fontname = "Arial"]
-
-		Node0x6000002740a0[label = "-"]
-		Node0x6000002740a0 -> Node0x600000274060[color = "black", fontname = "Arial"]
-
-		Node0x600000274060[label = "2 "]
-
-		Node0x6000002740a0 -> Node0x600000274080[color = "black", fontname = "Arial"]
-
-		Node0x600000274080[label = "1 "]
-
-
-
-
-
-}
+		Node0x600001f611c0[label = "x"]
+	}

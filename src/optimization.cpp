@@ -8,6 +8,8 @@ static Node*  kill_constants(Node* n);
 
 static Node*  kill_obvious(Node* n);
 
+static Node*  kill_common(Node* n);
+
 static bool   is_equal(Node* n, double y);
 
 static Node*  optimize_visit(Node* n);
@@ -63,9 +65,10 @@ static Node* kill_obvious(Node* n)
     if(is_equal(L, 1))
         switch(O)
         {
-            case OPER_MUL:  free(L);
+            case OPER_MUL:  new_n = R;
+                            free(L);
                             free(n);
-                            return new_n->Right;
+                            return new_n;
             case OPER_POW:  free(L);
                             node_delete(R);
                             L = nullptr;
@@ -79,12 +82,11 @@ static Node* kill_obvious(Node* n)
         switch(O)
         {
             case OPER_MUL:
-            case OPER_DIV:  free(R);
+            case OPER_DIV:
+            case OPER_POW:  new_n = L;
+                            free(R);
                             free(n);
-                            return new_n->Left;
-            case OPER_POW:  free(R);
-                            free(n);
-                            return new_n->Left;
+                            return new_n;
             default:        return n;
         }
     if(is_equal(L, 0))
@@ -135,6 +137,58 @@ static Node* kill_obvious(Node* n)
         }
     return n;
 }
+
+
+static Node*  kill_common(Node* n)
+{
+    assert(n);
+
+    if(T != OPER)
+        return n;
+
+    if(!(L && R))
+        return n;
+
+    if(tree_compare(L, R))
+        return n;
+
+    switch(O)
+    {
+        case OPER_ADD:  O = OPER_MUL;
+                        R->Type = NUM;
+                        RNUM = 2;
+                        node_delete(R->Left);
+                        node_delete(R->Right); 
+                        R->Right = nullptr;
+                        R->Left  = nullptr;
+                        return n;
+        case OPER_SUB:  T = NUM;
+                        N = 0;
+                        node_delete(L);
+                        node_delete(R);
+                        L = nullptr;
+                        R = nullptr;
+                        return n;
+        case OPER_MUL:  O = OPER_POW;
+                        R->Type = NUM;
+                        RNUM = 2;
+                        node_delete(R->Left);
+                        node_delete(R->Right); 
+                        R->Right = nullptr;
+                        R->Left  = nullptr;
+                        return n;
+        case OPER_DIV:  T = NUM;
+                        N = 1;
+                        node_delete(L);
+                        node_delete(R);
+                        L = nullptr;
+                        R = nullptr;
+                        return n;
+        default:        return n;
+    }
+    return n;
+}
+
 
 static Node* kill_constants(Node* n)
 {
@@ -216,6 +270,7 @@ static Node* optimize_visit(Node* n)
 
     n = kill_constants(n);
     n = kill_obvious(n);
+    n = kill_common(n);
 
     if(L)
         L = optimize_visit(L);
@@ -255,3 +310,29 @@ Tree* optimize(Tree* p_tree)
     p_tree->size = count_tree_size(p_tree->root);
     return p_tree;
 }
+
+/*
+static node* find_path(node* p_node, stack* def_stk, char* elem)
+{
+    node* found = nullptr;
+
+    if(!strcmp(elem, p_node->data))
+    {
+        found = p_node;
+    }
+    if(p_node->left  && !found)
+    {
+        found = find_path(p_node->left,  def_stk, elem);
+    }
+    if(p_node->right && !found)
+    {
+        found = find_path(p_node->right, def_stk, elem);
+    }
+
+    if(found)
+    {
+        StackPush(def_stk, p_node);
+    }
+    return found;
+}
+*/

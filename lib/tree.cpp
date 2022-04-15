@@ -62,29 +62,69 @@ Node* node_cpy(Node* p_node)
 }
 
 
-void tree_visit(Node* p_node, void(*function)(Node*))
-{
-    if(!p_node)
-        return;
-
-    function(p_node);
-
-    if(p_node->Left)
-        tree_visit(p_node->Left,  function);
-    if(p_node->Right)
-        tree_visit(p_node->Right, function);
-}
-
-
 size_t count_tree_size(Node* p_node)
 {
     if(p_node->Left && p_node->Right)
-        return count_tree_size(p_node->Left) + count_tree_size(p_node->Right);
+        return count_tree_size(p_node->Left) + count_tree_size(p_node->Right) + 1;
 
-    if(p_node->Left)
-        count_tree_size(p_node->Left);
     if(p_node->Right)
-        count_tree_size(p_node->Right);
+        return count_tree_size(p_node->Right) + 1;
+    if(p_node->Left)
+        return count_tree_size(p_node->Left ) + 1;
     
     return 1;
+}
+
+
+static bool nodecmp(Node* node1, Node* node2)
+{
+    if(node1->Type == node2->Type)
+        if(!memcmp(&node1->Value, &node2->Value, sizeof(NodeValue)))
+            return true;
+    
+    return false;
+}
+
+
+Node* tree_compare(Node* n1, Node* n2)
+{
+        assert(n1);
+        assert(n2);
+
+        if(!nodecmp(n1, n2))
+            return n1;
+
+        if (((!n1->Left  && n2->Left)  || (n1->Left  && !n2->Left)) ||
+            ((!n1->Right && n2->Right) || (n1->Right && !n2->Right)))
+               return n1; 
+
+        Node* n = nullptr;
+
+        if (n1->Left)
+                n = tree_compare(n1->Left, n2->Left);
+        if (n)
+                return n;
+
+        if (n1->Right)
+                n = tree_compare(n1->Right, n2->Right);
+        if (n)
+                return n;
+
+        return nullptr;
+}
+
+
+hash_t count_hash(Node* p_node)
+{
+    assert(p_node);
+
+    if(p_node->Left && p_node->Right)
+        return count_hash(p_node->Left) + count_hash(p_node->Right);
+
+    if(p_node->Right)
+        return qhash(p_node->Right, sizeof(Node));
+    if(p_node->Left)
+        return qhash(p_node->Left, sizeof(Node));
+    
+    return qhash(p_node, sizeof(Node));
 }

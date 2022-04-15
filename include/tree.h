@@ -7,6 +7,8 @@
 #include <assert.h>
 #include <iostream>
 
+#include "hash.h"
+
 
 #define OPER_SPEC  "s"
 #define VAR_SPEC   "c"
@@ -28,6 +30,9 @@ enum OperType
     OPER_COS = 0X636F10,
     OPER_SH  = 0X7368,
     OPER_CH  = 0X6368,
+
+    //deriviation
+    OPER_DDX = 0x64,
 };
 
 
@@ -60,6 +65,7 @@ struct Tree
 {
     size_t size;
     Node*  root;
+    hash_t hash;
 };
 
 
@@ -73,11 +79,11 @@ Tree*   tree_dtor(Tree* p_tree);
 
 Tree*   tree_viz_dump(Tree* p_tree);
 
-Tree*   tree_tex_dump(Tree* p_tree);
-
-void    tree_visit(Node* p_node, void(*function)(Node*));
+Node*   tree_compare(Node* n1, Node* n2);
 
 size_t  count_tree_size(Node* p_node);
+
+hash_t  count_hash(Node* p_node);
 
 
 #endif

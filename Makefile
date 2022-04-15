@@ -29,11 +29,22 @@ CXX=g++
 	   -Wno-format-nonliteral 
 
 # $(CXX) -g $(CXXFLAGS) -c  main.cpp src/akinator.cpp src/dump.cpp src/parser.cpp src/tree.cpp
-#"${workspaceFolder}\\/main.cpp", "${workspaceFolder}\\/lib/hash.cpp", "${workspaceFolder}\\/lib/operators.cpp", "${workspaceFolder}/\\src/lib/tree_dump.cpp", "${workspaceFolder}/\\lib/tree.cpp", "${workspaceFolder}/\\src/differentiator.cpp", "${workspaceFolder}/\\src/optimization.cpp", "${workspaceFolder}/\\src/parser.cpp"
+#"${workspaceFolder}\\/main.cpp", "${workspaceFolder}\\/lib/hash.cpp", "${workspaceFolder}\\/lib/operators.cpp", "${workspaceFolder}/\\src/lib/tree_viz_dump.cpp", "${workspaceFolder}/\\lib/tree.cpp", "${workspaceFolder}/\\src/differentiator.cpp", "${workspaceFolder}/\\src/optimization.cpp", "${workspaceFolder}/\\src/parser.cpp"
 	
 all: 
-	$(CXX) -g -O3 -pipe $(CXXFLAGS) -o app lib/hash.cpp lib/operators.cpp lib/tree_dump.cpp lib/tree.cpp src/differentiator.cpp src/optimization.cpp src/parser.cpp main.cpp
+	$(CXX) -g -O3 -pipe $(CXXFLAGS) -c lib/hash.cpp lib/operators.cpp lib/tree_tex_dump.cpp lib/tree_viz_dump.cpp lib/tree.cpp src/differentiator.cpp src/optimization.cpp src/parser.cpp main.cpp
+	$(CXX) -g -O3 -pipe $(CXXFLAGS) -o app hash.o operators.o tree_tex_dump.o tree_viz_dump.o tree.o differentiator.o optimization.o parser.o main.o
+
+current:
+	$(CXX) -g -O3 -pipe $(CXXFLAGS) -c lib/tree_tex_dump.cpp src/differentiator.cpp src/optimization.cpp
+
+start:
+	$(CXX) -g -O3 -pipe $(CXXFLAGS) -o app hash.o operators.o tree_tex_dump.o tree_viz_dump.o tree.o differentiator.o optimization.o parser.o main.o
 	./app
+
 clean:
 	rm *.o
+
+kill:
+	rm logfiles/dump.html logfiles/dump.tex logfiles/res/*
 	

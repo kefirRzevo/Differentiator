@@ -1,21 +1,123 @@
-digraph G                                                                                          
-{                                                                                                  
-		bgcolor  = "#FFFFFF"                                                                         
-		compound = true                                                                                
-		newrank  = true                                                                                
-		graph[splines = polyline, nodesep = 0.3, ranksep = 1, rankdir = TB]                            
-		node[shape = record, style = "filled", penwidth = 2, color = "#000000", margin = 0.04,     
-		fontcolor = "#000000", fontsize = 12, fillcolor = "#FFFFFF", fontname = "Arial"]         
-		edge[arrowsize = 0.7, style = solid, penwidth = 1.1, color = "#CCCCCC"]                    
+	digraph
+	{
+		edge [color     = darkgrey]
+		edge [arrowsize = 1.6]
+		edge [penwidth  = 1.2]
 
-		Node0x6000002740e0[label = "*"]
-		Node0x6000002740e0 -> Node0x600000274020[color = "black", fontname = "Arial"]
+		graph [penwidth = 2]
+		graph [ranksep  = 1.3]
+		graph [nodesep  = 0.5]
+		graph [style    = "filled"]
+		graph [color    = green, fillcolor = lightgreen]
 
-		Node0x600000274020[label = "2 "]
+		node [penwidth = 2]
+		node [shape    = box]
+		node [color    = black, fillcolor = white]
 
-		Node0x6000002740e0 -> Node0x600000274040[color = "black", fontname = "Arial"]
+		compound  = true;
+		newrank   = true;
 
-		Node0x600000274040[label = "x "]
+		Node0x600001f64060[label = "+"]
+		Node0x600001f64060 -> Node0x600001f642a0
 
+		Node0x600001f642a0[label = "*"]
+		Node0x600001f642a0 -> Node0x600001f64080
 
-}
+		Node0x600001f64080[label = "0"]
+		Node0x600001f642a0 -> Node0x600001f641c0
+
+		Node0x600001f641c0[label = "*"]
+		Node0x600001f641c0 -> Node0x600001f641e0
+
+		Node0x600001f641e0[label = "2"]
+		Node0x600001f641c0 -> Node0x600001f64200
+
+		Node0x600001f64200[label = "^"]
+		Node0x600001f64200 -> Node0x600001f64220
+
+		Node0x600001f64220[label = "x"]
+		Node0x600001f64200 -> Node0x600001f64240
+
+		Node0x600001f64240[label = "-"]
+		Node0x600001f64240 -> Node0x600001f64260
+
+		Node0x600001f64260[label = "2"]
+		Node0x600001f64240 -> Node0x600001f64280
+
+		Node0x600001f64280[label = "1"]
+		Node0x600001f64060 -> Node0x600001f64320
+
+		Node0x600001f64320[label = "*"]
+		Node0x600001f64320 -> Node0x600001f642c0
+
+		Node0x600001f642c0[label = "1"]
+		Node0x600001f64320 -> Node0x600001f64300
+
+		Node0x600001f64300[label = "+"]
+		Node0x600001f64300 -> Node0x600001f643e0
+
+		Node0x600001f643e0[label = "*"]
+		Node0x600001f643e0 -> Node0x600001f641a0
+
+		Node0x600001f641a0[label = "0"]
+		Node0x600001f643e0 -> Node0x600001f64040
+
+		Node0x600001f64040[label = "^"]
+		Node0x600001f64040 -> Node0x600001f64360
+
+		Node0x600001f64360[label = "x"]
+		Node0x600001f64040 -> Node0x600001f64380
+
+		Node0x600001f64380[label = "-"]
+		Node0x600001f64380 -> Node0x600001f643a0
+
+		Node0x600001f643a0[label = "2"]
+		Node0x600001f64380 -> Node0x600001f643c0
+
+		Node0x600001f643c0[label = "1"]
+		Node0x600001f64300 -> Node0x600001f64460
+
+		Node0x600001f64460[label = "*"]
+		Node0x600001f64460 -> Node0x600001f64400
+
+		Node0x600001f64400[label = "2"]
+		Node0x600001f64460 -> Node0x600001f64440
+
+		Node0x600001f64440[label = "*"]
+		Node0x600001f64440 -> Node0x600001f64340
+
+		Node0x600001f64340[label = "1"]
+		Node0x600001f64440 -> Node0x600001f645c0
+
+		Node0x600001f645c0[label = "*"]
+		Node0x600001f645c0 -> Node0x600001f642e0
+
+		Node0x600001f642e0[label = "-"]
+		Node0x600001f642e0 -> Node0x600001f644a0
+
+		Node0x600001f644a0[label = "2"]
+		Node0x600001f642e0 -> Node0x600001f644c0
+
+		Node0x600001f644c0[label = "1"]
+		Node0x600001f645c0 -> Node0x600001f645a0
+
+		Node0x600001f645a0[label = "^"]
+		Node0x600001f645a0 -> Node0x600001f644e0
+
+		Node0x600001f644e0[label = "x"]
+		Node0x600001f645a0 -> Node0x600001f64580
+
+		Node0x600001f64580[label = "-"]
+		Node0x600001f64580 -> Node0x600001f64500
+
+		Node0x600001f64500[label = "-"]
+		Node0x600001f64500 -> Node0x600001f64520
+
+		Node0x600001f64520[label = "2"]
+		Node0x600001f64500 -> Node0x600001f64540
+
+		Node0x600001f64540[label = "1"]
+		Node0x600001f64580 -> Node0x600001f64560
+
+		Node0x600001f64560[label = "1"]
+	}

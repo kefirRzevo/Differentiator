@@ -91,7 +91,7 @@ static bool get_data(Node* p_node)
         return 1;
     }
 
-    if(isalpha(*iterator))
+    if(isalpha(*iterator) && *iterator != 'd')
     {
         p_node->Type           = VAR;
         p_node->Value.variable = *iterator;

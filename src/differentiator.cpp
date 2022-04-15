@@ -2,13 +2,21 @@
 #include "../include/logs.h"
 
 
-static int variable_location(Node* p_node, char variable);
+static int   variable_location(Node* p_node, char variable);
 
 static Node* find_variable(Node* p_node, char variable);
 
-static Node* node_dif(Node* n, char variable);
+static Node* find_operator(Node* p_node, OperType oper);
+
+static Node* dif_node(Node* n, char variable, Tree* p_tree);
+
+static Node* node_dif(Node* n, Tree* p_tree);
+
+static Node* oper_dif(Node* n);
 
 static Node* new_num_node(double num);
+
+static Node* new_var_node(char   var);
 
 static Node* new_oper_node(OperType type, Node* lnode, Node* rnode);
 
@@ -39,6 +47,23 @@ static Node* find_variable(Node* p_node, char variable)
 }
 
 
+static Node* find_operator(Node* p_node, OperType oper)
+{
+    Node* found = nullptr;
+
+    if(p_node->Type == OPER)
+        if(p_node->Value.oper_type == oper)
+            found = p_node;
+    
+    if(p_node->Left  && !found)
+        found = find_operator(p_node->Left,  oper);
+    if(p_node->Right && !found)
+        found = find_operator(p_node->Right, oper);
+
+    return found;
+}
+
+
 static int variable_location(Node* p_node, char variable)
 {
     assert(p_node);
@@ -57,34 +82,46 @@ static int variable_location(Node* p_node, char variable)
 
 static Node* new_num_node(double num)
 {
-    Node* p_new_node = (Node *)calloc(1, sizeof(Node));
-    CALLOC_CHECK(p_new_node);
+    Node* new_node = (Node *)calloc(1, sizeof(Node));
+    CALLOC_CHECK(new_node);
 
-    p_new_node->Type         = NUM;
-    p_new_node->Value.number = num;
+    new_node->Type         = NUM;
+    new_node->Value.number = num;
 
-    return p_new_node;
+    return new_node;
+}
+
+
+static Node* new_var_node(char var)
+{
+    Node* new_node = (Node *)calloc(1, sizeof(Node));
+    CALLOC_CHECK(new_node);
+
+    new_node->Type            = VAR;
+    new_node->Value.variable  = var;
+
+    return new_node;
 }
 
 
 static Node* new_oper_node(OperType type, Node* lnode, Node* rnode)
 {
-    Node* p_new_node = (Node *)calloc(1, sizeof(Node));
-    CALLOC_CHECK(p_new_node);
+    Node* new_node = (Node *)calloc(1, sizeof(Node));
+    CALLOC_CHECK(new_node);
 
-    p_new_node->Type            = OPER;
-    p_new_node->Value.oper_type = type;
-    p_new_node->Left            = lnode;
-    p_new_node->Right           = rnode;
+    new_node->Type            = OPER;
+    new_node->Value.oper_type = type;
+    new_node->Left            = lnode;
+    new_node->Right           = rnode;
 
-    return p_new_node;
+    return new_node;
 }
 
 
 #define L           n->Left
 #define R           n->Right
 #define C(X)        node_cpy(X)
-#define D(X)        node_dif(X, variable)
+#define D(X)        new_oper_node(OPER_DDX, X, new_var_node(variable))
 #define NUM(X)      new_num_node(X)
 
 #define ADD(X, Y)   new_oper_node(OPER_ADD, X, Y)
@@ -93,19 +130,21 @@ static Node* new_oper_node(OperType type, Node* lnode, Node* rnode)
 #define DIV(X, Y)   new_oper_node(OPER_DIV, X, Y)
 #define OPER(OP, X, Y)    new_oper_node(OP, X, Y)
 
-static Node* node_dif(Node* n, char variable)
+static Node* oper_dif(Node* n)
 {
     assert(n);
 
-    NodeValue temp = {};
+    char variable = R->Value.variable;
+    n = L;
+
     switch(n->Type)
     {
-        case NUM:   return new_num_node(0);
+        case NUM:   return NUM(0);
 
         case VAR:   if(n->Value.variable == variable)
-                        return new_num_node(1);
+                        return NUM(1);
                     else    
-                        return new_num_node(0);
+                        return NUM(0);
 
         case OPER:  switch(n->Value.oper_type)
                     {
@@ -125,8 +164,55 @@ static Node* node_dif(Node* n, char variable)
                         case OPER_COS:  return  MUL(NUM(-1), MUL(D(R), OPER(OPER_SIN, nullptr, C(R))));
                         case OPER_SH:   return  MUL(D(R), OPER(OPER_CH, nullptr, C(R)) );
                         case OPER_CH:   return  MUL(D(R), OPER(OPER_SH, nullptr, C(R)) );
+                        case OPER_DDX:  return  nullptr;
                     }
+        default:    return nullptr;
     }
+}
+
+
+static void fill_node(Node* n1, Node* n2)
+{
+    assert(n1);
+    assert(n2);
+
+    n1->Left  = n2->Left;
+    n1->Right = n2->Right;
+    n1->Type  = n2->Type;
+
+    memcpy(&n1->Value, &n2->Value, sizeof(NodeValue));
+    free(n2);
+}
+
+
+static Node* node_dif(Node* n, Tree* p_tree)
+{
+    assert(n);
+    assert(p_tree);
+
+    hash_t hash = count_hash(p_tree->root);
+    if(hash != p_tree->hash)
+    {
+        tex_tree(p_tree, 1);
+        p_tree->hash = count_hash(p_tree->root);
+    }
+
+    if(n->Type == OPER && n->Value.oper_type == OPER_DDX)
+    {
+        if(L->Type == OPER && L->Value.oper_type == OPER_DDX)
+            L = node_dif(L, p_tree);
+
+        Node* new_node = oper_dif(n);
+        free(R);
+        fill_node(n, new_node);
+    }
+    
+    if(L)
+        L = node_dif(L, p_tree);
+    if(R)
+        R = node_dif(R, p_tree);
+
+    return n;
 }
 
 #undef L     
@@ -145,11 +231,20 @@ static Node* node_dif(Node* n, char variable)
 Tree* differentiate(Tree* p_tree, char variable)
 {
     assert(p_tree);
+    tex_open();
 
     Tree* new_tree = nullptr;
     tree_ctor(&new_tree);
 
-    new_tree->root = node_dif(p_tree->root, variable);
+    Node* old_root = p_tree->root;
+    Node* var_node = new_var_node(variable);
+    Node* new_root = new_oper_node(OPER_DDX, p_tree->root, var_node);
+    p_tree->root   = new_root;
+
+    p_tree->hash   = 0;
+    new_tree->root = node_dif(new_root, p_tree);
     new_tree->size = count_tree_size(new_tree->root);
+    p_tree->root   = old_root;
+
     return new_tree;
 }

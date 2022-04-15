@@ -15,6 +15,7 @@ bool get_oper_type(hash_t hash, Node* p_node)
         case OPER_LN:   p_node->Value.oper_type = OPER_LN;    return true;
         case OPER_SH:   p_node->Value.oper_type = OPER_SH;    return true;
         case OPER_CH:   p_node->Value.oper_type = OPER_CH;    return true;
+        case OPER_DDX:  p_node->Value.oper_type = OPER_DDX;   return true;
     }
     return false;
 }
@@ -34,5 +35,6 @@ void oper_name(char* name, Node* p_node)
         case OPER_LN:   strcpy(name, "ln" );   break;
         case OPER_SH:   strcpy(name, "sh" );   break;
         case OPER_CH:   strcpy(name, "ch" );   break;
+        case OPER_DDX:  strcpy(name, "d"  );   break;
     }
 }
