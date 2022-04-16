@@ -1,0 +1,2345 @@
+STACK LOGFILE
+Time: 22:36:26
+Day:  Saturday
+=====================================================================================
+|Name_stack: |Command:    |Argument:   |Stack size: |Status?                         
+|            |            |            |            |                                
+=====================================================================================
+|            |            |            |            |                                
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d9580|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d91a0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d91a0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d9580|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d9680|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d94c0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d94c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d9680|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d9680|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d9580|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d9580|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d9680|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d9780|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d9340|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d9340|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d9780|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d98c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d9580|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d9580|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d98c0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d99a0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d9780|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d9780|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d99a0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d99a0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d98c0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d98c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d99a0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d99a0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d9940|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d9940|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d99a0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da300|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d9160|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da320|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da340|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da340|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da320|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d9160|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da300|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da360|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d99a0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da380|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da3a0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da3a0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da380|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d99a0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da360|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da680|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da300|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da6a0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da6c0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da6e0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da6e0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da6c0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da6a0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da300|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da680|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da8c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da360|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da8e0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da900|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da920|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da940|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da940|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da920|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da900|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da8e0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da360|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da8c0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daa60|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da680|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daa80|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daaa0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daac0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daae0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dab00|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dab00|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daae0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daac0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daaa0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daa80|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da680|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daa60|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daa60|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da8c0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da680|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daa80|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daaa0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daac0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daac0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daaa0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daa80|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da680|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da8c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daa60|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daba0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daa00|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dabc0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dabe0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dac00|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dac20|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dac20|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dac00|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dabe0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dabc0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daa00|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daba0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daba0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daa60|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daa00|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dabc0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dabe0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dac00|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dac00|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dabe0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dabc0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daa00|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daa60|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daba0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dad00|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dab40|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dad20|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dad40|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dad60|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dad80|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dad80|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dad60|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dad40|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dad20|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dab40|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dad00|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dad00|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daba0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dab40|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dad20|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dad40|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dad60|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dad60|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dad40|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dad20|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dab40|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daba0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dad00|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dadc0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da860|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dade0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dae00|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dae20|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dae40|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dae40|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dae20|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dae00|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dade0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da860|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dadc0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daec0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daba0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daee0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daf00|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daf20|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daf40|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daf40|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daf20|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daf00|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daee0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daba0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daec0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daec0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dadc0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daba0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daee0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daf00|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001daf20|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daf20|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daf00|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daee0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daba0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dadc0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001daec0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dafc0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da620|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dafe0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db000|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db020|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db040|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db060|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db060|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db040|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db020|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db000|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dafe0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da620|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dafc0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db100|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dadc0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db120|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db140|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db160|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db180|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db1a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db1a0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db180|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db160|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db140|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db120|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dadc0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db100|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db1e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dafc0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db200|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db220|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db240|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db260|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db280|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db280|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db260|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db240|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db220|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db200|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dafc0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db1e0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db1e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db100|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dafc0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db200|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db220|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db240|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db260|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db260|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db240|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db220|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db200|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dafc0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db100|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db1e0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db1e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db180|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db100|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dafc0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db200|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db220|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db240|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db240|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db220|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db200|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dafc0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db100|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db180|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db1e0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db600|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001da320|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db620|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db640|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db660|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db680|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db6a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db6c0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db6c0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db6a0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db680|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db660|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db640|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db620|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001da320|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db600|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db6a0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db1e0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db6c0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db6e0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db700|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db720|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db740|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db760|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db760|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db740|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db720|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db700|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db6e0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db6c0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db1e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db6a0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db7a0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db600|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db7c0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db7e0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db800|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db820|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db840|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db860|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db880|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db880|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db860|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db840|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db820|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db800|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db7e0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db7c0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db600|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db7a0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db7a0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db6a0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db600|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db7c0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db7e0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db800|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db820|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db840|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db860|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db860|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db840|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db820|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db800|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db7e0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db7c0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db600|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db6a0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db7a0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbb40|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db5a0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbb60|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbb80|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbba0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbbc0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbbe0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbc00|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbc20|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbc40|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbc40|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbc20|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbc00|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbbe0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbbc0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbba0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbb80|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbb60|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db5a0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbb40|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbb40|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db7a0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001db5a0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbb60|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbb80|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbba0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbbc0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbbe0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbc00|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbc20|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbc20|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbc00|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbbe0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbbc0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbba0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbb80|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbb60|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db5a0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001db7a0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbb40|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbea0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbae0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbec0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbee0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbf00|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbf20|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbf40|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbf60|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbf80|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbfa0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dbfc0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbfc0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbfa0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbf80|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbf60|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbf40|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbf20|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbf00|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbee0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbec0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbae0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dbea0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0140|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0160|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0180|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d01a0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d01c0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d01e0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0200|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0220|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0240|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0260|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0280|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02a0|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02a0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0280|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0260|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0240|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0220|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0200|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d01e0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d01c0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d01a0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0180|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0160|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0140|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d01c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d01e0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0200|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0220|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0240|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0260|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0280|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02a0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02c0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02e0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0300|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0320|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0320|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0300|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02e0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02c0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0280|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0260|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0240|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0220|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0200|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d01e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d01c0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0140|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02e0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0300|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0320|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0340|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0360|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0380|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03a0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03c0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03e0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0400|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0400|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03e0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03c0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03a0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0380|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0360|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0340|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0320|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0300|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02e0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0140|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02c0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d01c0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0140|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02e0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0300|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0320|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0340|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0360|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0380|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03a0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03c0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03e0|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03e0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03c0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03a0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0380|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0360|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0340|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0320|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0300|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02e0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0140|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d01c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02c0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0260|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d01c0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0140|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02e0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0300|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0320|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0340|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0360|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0380|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03a0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03c0|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03c0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03a0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0380|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0360|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0340|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0320|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0300|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02e0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0140|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d01c0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0260|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02c0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0360|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0180|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0380|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03a0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03c0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03e0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0400|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0420|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0440|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0460|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0480|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d04a0|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d04a0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0480|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0460|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0440|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0420|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0400|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03e0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03c0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03a0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0380|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0180|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0360|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc180|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc220|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc240|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc260|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc280|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc2a0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc2c0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc2e0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc300|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc320|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc340|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc360|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc360|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc340|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc320|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc300|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc2e0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc2c0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc2a0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc280|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc260|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc240|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc220|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc180|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc180|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc220|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc240|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc260|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc280|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc2a0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc2c0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc2e0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc300|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc320|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc340|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc360|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc360|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc340|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc320|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc300|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc2e0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc2c0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc2a0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc280|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc260|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc240|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc220|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc180|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc3c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc3e0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc400|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc420|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc440|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc460|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc480|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc4a0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc4c0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc4e0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc500|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc520|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc540|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc540|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc520|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc500|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc4e0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc4c0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc4a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc480|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc460|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc440|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc420|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc400|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc3e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc3c0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc3c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc180|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc3e0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc400|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc420|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc440|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc460|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc480|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc4a0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc4c0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc4e0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc500|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc500|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc4e0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc4c0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc4a0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc480|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc460|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc440|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc420|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc400|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc3e0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc180|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc3c0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc580|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc360|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc5a0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc5c0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc5e0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc600|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc620|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc640|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc660|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc680|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc6a0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc6c0|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc6c0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc6a0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc680|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc660|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc640|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc620|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc600|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc5e0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc5c0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc5a0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc360|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc580|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc660|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc3c0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc680|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc6a0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc6c0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc6e0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc700|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc720|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc740|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc760|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc780|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc7a0|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc7c0|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc7c0|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc7a0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc780|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc760|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc740|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc720|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc700|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc6e0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc6c0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc6a0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc680|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc3c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc660|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d00e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0300|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02c0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0360|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0180|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0380|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03c0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03e0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0400|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0420|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0440|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0440|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0420|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0400|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03e0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03c0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03a0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0380|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0180|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0360|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02c0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0300|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d00e0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d00e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0300|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02c0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0360|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0180|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0380|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03c0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03e0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0400|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0420|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0440|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0440|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0420|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0400|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03e0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03c0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03a0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0380|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0180|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0360|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02c0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0300|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d00e0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0400|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0420|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0440|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0460|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0480|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d04a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d04c0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d04e0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0500|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0520|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0540|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0560|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0560|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0540|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0520|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0500|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d04e0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d04c0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d04a0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0480|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0460|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0440|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0420|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0400|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03e0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0540|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d00e0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0560|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0580|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d05a0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d05c0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d05e0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0600|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0620|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0640|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0660|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0680|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06a0|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06a0|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0680|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0660|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0640|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0620|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0600|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d05e0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d05c0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d05a0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0580|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0560|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d00e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0540|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0620|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03e0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0640|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0660|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0680|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06a0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06c0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06e0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0700|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0720|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0740|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0760|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0780|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0780|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0760|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0740|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0720|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0700|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06e0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06c0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06a0|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0680|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0660|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0640|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0620|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0620|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0540|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03e0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0640|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0660|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0680|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06c0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06e0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0700|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0720|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0740|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0760|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0760|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0740|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0720|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0700|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06e0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06c0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06a0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0680|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0660|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0640|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03e0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0540|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0620|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0620|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d05c0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0540|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03e0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0640|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0660|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0680|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06a0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06c0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06e0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0700|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0720|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0740|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0740|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0720|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0700|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06e0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06c0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0680|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0660|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0640|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03e0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0540|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d05c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0620|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc7c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc7e0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc800|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc820|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc840|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc860|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc880|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc8a0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc8c0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc8e0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc900|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc920|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc940|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc960|14          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc960|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc940|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc920|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc900|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc8e0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc8c0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc8a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc880|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc860|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc840|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc820|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc800|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc7e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc7c0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc900|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc600|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc920|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc940|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc960|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc980|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc9a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc9c0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dc9e0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dca00|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dca20|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dca40|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dca60|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dca80|14          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001dcaa0|15          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dcaa0|14          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dca80|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dca60|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dca40|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dca20|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dca00|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc9e0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc9c0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc9a0|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc980|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc960|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc940|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc920|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc600|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001dc900|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0620|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d05c0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0540|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03e0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0640|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0660|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0680|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06a0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06c0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06e0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0700|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0720|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0740|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0760|14          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0780|15          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0780|14          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0760|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0740|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0720|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0700|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06e0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06c0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0680|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0660|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0640|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03e0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0540|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d05c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0620|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06e0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0700|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0720|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0740|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0760|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0780|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d07a0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d07c0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d07e0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0800|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0820|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0840|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0860|14          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0880|15          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0880|14          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0860|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0840|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0820|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0800|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d07e0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d07c0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d07a0|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0780|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0760|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0740|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0720|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0700|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06e0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06c0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0620|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06e0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0700|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0720|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0740|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0760|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0780|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d07a0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d07c0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d07e0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0800|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0820|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0840|14          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0860|15          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0860|14          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0840|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0820|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0800|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d07e0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d07c0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d07a0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0780|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0760|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0740|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0720|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0700|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06e0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0620|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06c0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06c0|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0660|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0620|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06e0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0700|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0720|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0740|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0760|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0780|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d07a0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d07c0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d07e0|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0800|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0820|14          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0840|15          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0840|14          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0820|13          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0800|12          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d07e0|11          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d07c0|10          |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d07a0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0780|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0760|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0740|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0720|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0700|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06e0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0620|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0660|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06c0|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0100|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0160|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d06a0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d03e0|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0600|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0580|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0080|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d0020|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_push  |0x6000001d02a0|9           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d02a0|8           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0020|7           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0080|6           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0580|5           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0600|4           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d03e0|3           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d06a0|2           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0160|1           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_pop   |0x6000001d0100|0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+THIS IS THE END!

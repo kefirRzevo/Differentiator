@@ -1,9 +1,11 @@
 #include "../include/differentiator.h"
 #include "../include/tree.h"
 #include "../include/logs.h"
+#include "../include/stack.h"
 
-FILE *LOGFILE = nullptr;
+FILE *LOGFILE          = nullptr;
 static size_t N_DUMPS  = 0;
+stack CHANGE_STK       = {};
 
 
 static void compile_tex();
@@ -21,6 +23,9 @@ static void tex_uno( Node* n);
 static void tex_dif( Node* n);
 static void tex_data(Node* n);
 static void tex_node(Node* n);
+
+static void  fill_substitutions(Node* n, Tree* p_tree);
+static Node* find_node(Node *n);
 
 
 static const char* CRINGE[] = 
@@ -106,10 +111,31 @@ FILE* tex_open()
 void tex_tree(Tree* p_tree, bool phrase)
 {
     assert(p_tree);
+    StackCtor(&CHANGE_STK);
+    
+    fill_substitutions(p_tree->root, p_tree);
 
     tex_eq_start(phrase);
     tex_node(p_tree->root);
     tex_eq_end();
+
+    if(CHANGE_STK.size)
+        tex_msg("Где, \n");
+
+    while (CHANGE_STK.size) 
+    {
+        Node* temp = nullptr;
+        StackPop(&CHANGE_STK, &temp);
+
+        tex_eq_start(0);
+        tex_node(temp);
+        tex_msg(" = ");
+        tex_node(temp->Right);
+        tex_eq_end();
+
+        free(temp);
+    }
+    StackDtor(&CHANGE_STK);
 }
 
 
@@ -206,7 +232,6 @@ static void tex_mul(Node* left_node, Node* right_node)
 
     if(RT == OPER && RO == OPER_ADD || RO == OPER_SUB)
     {
-        
         left_bracket();
         tex_node(right_node);
         right_bracket();
@@ -260,15 +285,20 @@ static void tex_uno(Node* n)
     switch(O)
     {
         case OPER_LN:   fprintf(LOGFILE, "\\ln {");   
-                        tex_node(n);
+                        tex_node(R);
+                        break;
         case OPER_SIN:  fprintf(LOGFILE, "\\sin {");   
-                        tex_node(n);
+                        tex_node(R);
+                        break;
         case OPER_COS:  fprintf(LOGFILE, "\\cos {");   
-                        tex_node(n);
+                        tex_node(R);
+                        break;
         case OPER_SH:   fprintf(LOGFILE, "\\sinh {");   
-                        tex_node(n);
+                        tex_node(R);
+                        break;
         case OPER_CH:   fprintf(LOGFILE, "\\cosh {");   
-                        tex_node(n);
+                        tex_node(R);
+                        break;
         default:        return;
     }
     fprintf(LOGFILE, "}");
@@ -283,14 +313,70 @@ static void tex_dif(Node* n)
         fprintf(LOGFILE, "\\frac{\\partial}{\\partial %c}", R->Value.variable);
 
     left_bracket();
-    tex_node(n->Left);
+    tex_node(L);
     right_bracket();
+}
+
+
+static void fill_substitutions(Node* n, Tree* p_tree)
+{
+    assert(n);
+
+    size_t size = count_tree_size(n);
+
+    if (size > 10 && size < 20 && p_tree->size > 30) 
+    {
+        Node* new_node  = (Node* )calloc(1, sizeof(Node));
+        new_node->Type  = VAR;
+        new_node->Right = n;
+        new_node->Value.variable = 'A' + CHANGE_STK.size;
+
+        StackPush(&CHANGE_STK, new_node);
+        return;
+    }
+
+    if(L)
+        fill_substitutions(L, p_tree);
+    
+    if(R)
+        fill_substitutions(R, p_tree);
+}
+
+
+static Node* find_node(Node *n)
+{
+    assert(n);
+
+    if (!CHANGE_STK.size)
+        return nullptr;
+
+    Node* found = nullptr;
+    for (size_t i = CHANGE_STK.size; i > 0; i--) 
+    {
+        if((CHANGE_STK.data[i - 1])->Right == n) 
+        {
+            found = CHANGE_STK.data[i - 1];
+            break;
+        }
+    }
+
+    return found;
 }
 
 
 static void tex_node(Node *n)
 {
     assert(n);
+
+    if (CHANGE_STK.size) 
+    {
+        Node* changed_node = find_node(n);
+        if (changed_node) 
+        {
+            tex_data(changed_node);
+            return;
+        }
+    }
 
     if (T != OPER) 
     {
@@ -316,7 +402,7 @@ static void tex_node(Node *n)
                         break;
         case OPER_DDX:  tex_dif(n);
                         break;
-        default:        tex_uno(R);
+        default:        tex_uno(n);
                         break;
     }
 

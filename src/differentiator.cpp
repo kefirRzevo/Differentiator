@@ -195,6 +195,7 @@ static Node* node_dif(Node* n, Tree* p_tree)
     {
         tex_tree(p_tree, 1);
         p_tree->hash = count_hash(p_tree->root);
+        p_tree->size = count_tree_size(p_tree->root);
     }
 
     if(n->Type == OPER && n->Value.oper_type == OPER_DDX)

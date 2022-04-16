@@ -310,29 +310,3 @@ Tree* optimize(Tree* p_tree)
     p_tree->size = count_tree_size(p_tree->root);
     return p_tree;
 }
-
-/*
-static node* find_path(node* p_node, stack* def_stk, char* elem)
-{
-    node* found = nullptr;
-
-    if(!strcmp(elem, p_node->data))
-    {
-        found = p_node;
-    }
-    if(p_node->left  && !found)
-    {
-        found = find_path(p_node->left,  def_stk, elem);
-    }
-    if(p_node->right && !found)
-    {
-        found = find_path(p_node->right, def_stk, elem);
-    }
-
-    if(found)
-    {
-        StackPush(def_stk, p_node);
-    }
-    return found;
-}
-*/
