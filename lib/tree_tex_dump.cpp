@@ -139,7 +139,7 @@ void tex_tree(Tree* p_tree, bool phrase)
 }
 
 
-void tex_msg(char message[])
+void tex_msg(const char message[])
 {
     assert(message);
 

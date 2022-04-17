@@ -46,5 +46,5 @@ clean:
 	rm *.o
 
 kill:
-	rm logfiles/dump.html logfiles/dump.tex logfiles/res/*
+	rm logfiles/dump.html logfiles/dump.tex logfiles/res/* logfiles/stk_logfile.txt
 	

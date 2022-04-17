@@ -128,3 +128,41 @@ hash_t count_hash(Node* p_node)
     
     return qhash(p_node, sizeof(Node));
 }
+
+
+Node* new_oper_node(OperType type, Node* lnode, Node* rnode)
+{
+    Node* new_node = (Node *)calloc(1, sizeof(Node));
+    CALLOC_CHECK(new_node);
+
+    new_node->Type            = OPER;
+    new_node->Value.oper_type = type;
+    new_node->Left            = lnode;
+    new_node->Right           = rnode;
+
+    return new_node;
+}
+
+
+Node* new_var_node(char var)
+{
+    Node* new_node = (Node *)calloc(1, sizeof(Node));
+    CALLOC_CHECK(new_node);
+
+    new_node->Type            = VAR;
+    new_node->Value.variable  = var;
+
+    return new_node;
+}
+
+
+Node* new_num_node(double num)
+{
+    Node* new_node = (Node *)calloc(1, sizeof(Node));
+    CALLOC_CHECK(new_node);
+
+    new_node->Type         = NUM;
+    new_node->Value.number = num;
+
+    return new_node;
+}

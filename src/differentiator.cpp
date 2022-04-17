@@ -14,12 +14,6 @@ static Node* node_dif(Node* n, Tree* p_tree);
 
 static Node* oper_dif(Node* n);
 
-static Node* new_num_node(double num);
-
-static Node* new_var_node(char   var);
-
-static Node* new_oper_node(OperType type, Node* lnode, Node* rnode);
-
 
 enum var_location
 {
@@ -80,44 +74,6 @@ static int variable_location(Node* p_node, char variable)
 }
 
 
-static Node* new_num_node(double num)
-{
-    Node* new_node = (Node *)calloc(1, sizeof(Node));
-    CALLOC_CHECK(new_node);
-
-    new_node->Type         = NUM;
-    new_node->Value.number = num;
-
-    return new_node;
-}
-
-
-static Node* new_var_node(char var)
-{
-    Node* new_node = (Node *)calloc(1, sizeof(Node));
-    CALLOC_CHECK(new_node);
-
-    new_node->Type            = VAR;
-    new_node->Value.variable  = var;
-
-    return new_node;
-}
-
-
-static Node* new_oper_node(OperType type, Node* lnode, Node* rnode)
-{
-    Node* new_node = (Node *)calloc(1, sizeof(Node));
-    CALLOC_CHECK(new_node);
-
-    new_node->Type            = OPER;
-    new_node->Value.oper_type = type;
-    new_node->Left            = lnode;
-    new_node->Right           = rnode;
-
-    return new_node;
-}
-
-
 #define L           n->Left
 #define R           n->Right
 #define C(X)        node_cpy(X)
@@ -133,6 +89,7 @@ static Node* new_oper_node(OperType type, Node* lnode, Node* rnode)
 static Node* oper_dif(Node* n)
 {
     assert(n);
+    assert(R->Type == VAR);
 
     char variable = R->Value.variable;
     n = L;

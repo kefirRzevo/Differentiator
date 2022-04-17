@@ -7,7 +7,6 @@ int main()
     Tree* equ_tree = nullptr;
     Tree* dif_tree = nullptr;
     tree_ctor(&equ_tree);
-
     parse(equ_tree, equation_file_path);
     tree_viz_dump(equ_tree);
     

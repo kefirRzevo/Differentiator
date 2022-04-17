@@ -18,7 +18,7 @@ Tree* differentiate(Tree* p_tree, char variable);
 
 FILE* tex_open();
 void  tex_tree(Tree* p_tree, bool phrase);
-void  tex_msg(char message[]);
+void  tex_msg(const char message[]);
 
 
 #endif

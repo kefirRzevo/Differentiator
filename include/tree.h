@@ -85,5 +85,11 @@ size_t  count_tree_size(Node* p_node);
 
 hash_t  count_hash(Node* p_node);
 
+Node* new_oper_node(OperType type, Node* lnode, Node* rnode);
+
+Node* new_var_node(char var);
+
+Node* new_num_node(double num);
+
 
 #endif

@@ -71,8 +71,11 @@ static void logfile_init()
 __attribute__((destructor))
 void logfile_kill()
 {
-    fprintf(LOGFILE, "THIS IS THE END!\n");
-	fclose(LOGFILE);
+    if(LOGFILE)
+    {
+        fprintf(LOGFILE, "THIS IS THE END!\n");
+	    fclose(LOGFILE);
+    }
 }
 
 

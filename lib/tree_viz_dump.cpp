@@ -101,8 +101,8 @@ Tree* tree_viz_dump(Tree* p_tree)
 
     LOG = dump_init(dump_path);
     make_one_dump(p_tree, img_path);
-    if(!N_DUMPS)
-        atexit(dump_close);
+    //if(!N_DUMPS)
+    //    atexit(dump_close);
     N_DUMPS++;
     return p_tree;
 }

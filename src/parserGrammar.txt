@@ -1,0 +1,7 @@
+
+    G::=E'\0'                        
+    E::=T{[+-]T}*                    
+    T::=P{[*/]P}*                    
+    P::=U{[^]U}*                     
+    U::='('E')' | 'd('E')/d('N')' | N | uno_opers
+    N::=double num                   

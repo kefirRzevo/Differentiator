@@ -17,41 +17,14 @@
 		compound  = true;
 		newrank   = true;
 
-		Node0x6000001dc000[label = "d"]
-		Node0x6000001dc000 -> Node0x6000001dc020
+		Node0x600003089140[label = "sin"]
+		Node0x600003089140 -> Node0x600003089180
 
-		Node0x6000001dc020[label = "/"]
-		Node0x6000001dc020 -> Node0x6000001dc040
+		Node0x600003089180[label = "^"]
+		Node0x600003089180 -> Node0x600003089160
 
-		Node0x6000001dc040[label = "sin"]
-		Node0x6000001dc040 -> Node0x6000001dc060
+		Node0x600003089160[label = "x"]
+		Node0x600003089180 -> Node0x6000030891a0
 
-		Node0x6000001dc060[label = "^"]
-		Node0x6000001dc060 -> Node0x6000001dc080
-
-		Node0x6000001dc080[label = "x"]
-		Node0x6000001dc060 -> Node0x6000001dc0a0
-
-		Node0x6000001dc0a0[label = "5"]
-		Node0x6000001dc020 -> Node0x6000001dc0c0
-
-		Node0x6000001dc0c0[label = "cos"]
-		Node0x6000001dc0c0 -> Node0x6000001dc0e0
-
-		Node0x6000001dc0e0[label = "^"]
-		Node0x6000001dc0e0 -> Node0x6000001dc100
-
-		Node0x6000001dc100[label = "*"]
-		Node0x6000001dc100 -> Node0x6000001dc120
-
-		Node0x6000001dc120[label = "5"]
-		Node0x6000001dc100 -> Node0x6000001dc140
-
-		Node0x6000001dc140[label = "x"]
-		Node0x6000001dc0e0 -> Node0x6000001dc160
-
-		Node0x6000001dc160[label = "3"]
-		Node0x6000001dc000 -> Node0x6000001dc180
-
-		Node0x6000001dc180[label = "x"]
+		Node0x6000030891a0[label = "2"]
 	}
