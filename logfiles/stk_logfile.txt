@@ -1,11 +1,19 @@
 STACK LOGFILE
-Time: 00:09:09
-Day:  Monday
+Time: 23:25:02
+Day:  Wednesday
 =====================================================================================
 |Name_stack: |Command:    |Argument:   |Stack size: |Status?                         
 |            |            |            |            |                                
 =====================================================================================
 |            |            |            |            |                                
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_ctor  | -          |0           |OK
+|            |            |            |            |
+|&CHANGE_STK |stack_dtor  | -          |0           |OK
+|            |            |            |            |
 |&CHANGE_STK |stack_ctor  | -          |0           |OK
 |            |            |            |            |
 |&CHANGE_STK |stack_dtor  | -          |0           |OK

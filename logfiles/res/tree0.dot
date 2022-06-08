@@ -17,14 +17,20 @@
 		compound  = true;
 		newrank   = true;
 
-		Node0x600003089140[label = "sin"]
-		Node0x600003089140 -> Node0x600003089180
+		Node0x600002b951c0[label = "+"]
+		Node0x600002b951c0 -> Node0x600002b95140
 
-		Node0x600003089180[label = "^"]
-		Node0x600003089180 -> Node0x600003089160
+		Node0x600002b95140[label = "cos"]
+		Node0x600002b95140 -> Node0x600002b95180
 
-		Node0x600003089160[label = "x"]
-		Node0x600003089180 -> Node0x6000030891a0
+		Node0x600002b95180[label = "*"]
+		Node0x600002b95180 -> Node0x600002b95160
 
-		Node0x6000030891a0[label = "2"]
+		Node0x600002b95160[label = "2"]
+		Node0x600002b95180 -> Node0x600002b951a0
+
+		Node0x600002b951a0[label = "x"]
+		Node0x600002b951c0 -> Node0x600002b951e0
+
+		Node0x600002b951e0[label = "5"]
 	}

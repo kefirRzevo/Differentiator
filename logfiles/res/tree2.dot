@@ -17,44 +17,50 @@
 		compound  = true;
 		newrank   = true;
 
-		Node0x600003089200[label = "*"]
-		Node0x600003089200 -> Node0x60000308c040
+		Node0x600002b95260[label = "+"]
+		Node0x600002b95260 -> Node0x600002b952a0
 
-		Node0x60000308c040[label = "*"]
-		Node0x60000308c040 -> Node0x60000308c100
+		Node0x600002b952a0[label = "*"]
+		Node0x600002b952a0 -> Node0x600002b95300
 
-		Node0x60000308c100[label = "1"]
-		Node0x60000308c040 -> Node0x60000308c1e0
+		Node0x600002b95300[label = "-1"]
+		Node0x600002b952a0 -> Node0x600002b953c0
 
-		Node0x60000308c1e0[label = "*"]
-		Node0x60000308c1e0 -> Node0x60000308c120
+		Node0x600002b953c0[label = "*"]
+		Node0x600002b953c0 -> Node0x600002b95320
 
-		Node0x60000308c120[label = "2"]
-		Node0x60000308c1e0 -> Node0x60000308c1c0
+		Node0x600002b95320[label = "+"]
+		Node0x600002b95320 -> Node0x600002b95420
 
-		Node0x60000308c1c0[label = "^"]
-		Node0x60000308c1c0 -> Node0x60000308c140
+		Node0x600002b95420[label = "*"]
+		Node0x600002b95420 -> Node0x600002b95280
 
-		Node0x60000308c140[label = "x"]
-		Node0x60000308c1c0 -> Node0x60000308c1a0
+		Node0x600002b95280[label = "0"]
+		Node0x600002b95420 -> Node0x600002b95400
 
-		Node0x60000308c1a0[label = "-"]
-		Node0x60000308c1a0 -> Node0x60000308c160
+		Node0x600002b95400[label = "x"]
+		Node0x600002b95320 -> Node0x600002b954a0
 
-		Node0x60000308c160[label = "2"]
-		Node0x60000308c1a0 -> Node0x60000308c180
+		Node0x600002b954a0[label = "*"]
+		Node0x600002b954a0 -> Node0x600002b95440
 
-		Node0x60000308c180[label = "1"]
-		Node0x600003089200 -> Node0x60000308c0c0
+		Node0x600002b95440[label = "2"]
+		Node0x600002b954a0 -> Node0x600002b95480
 
-		Node0x60000308c0c0[label = "cos"]
-		Node0x60000308c0c0 -> Node0x60000308c060
+		Node0x600002b95480[label = "1"]
+		Node0x600002b953c0 -> Node0x600002b953a0
 
-		Node0x60000308c060[label = "^"]
-		Node0x60000308c060 -> Node0x60000308c080
+		Node0x600002b953a0[label = "sin"]
+		Node0x600002b953a0 -> Node0x600002b95340
 
-		Node0x60000308c080[label = "x"]
-		Node0x60000308c060 -> Node0x60000308c0a0
+		Node0x600002b95340[label = "*"]
+		Node0x600002b95340 -> Node0x600002b95360
 
-		Node0x60000308c0a0[label = "2"]
+		Node0x600002b95360[label = "2"]
+		Node0x600002b95340 -> Node0x600002b95380
+
+		Node0x600002b95380[label = "x"]
+		Node0x600002b95260 -> Node0x600002b952e0
+
+		Node0x600002b952e0[label = "0"]
 	}
