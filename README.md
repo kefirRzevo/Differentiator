@@ -2,12 +2,12 @@
 
 ## Introduction
 
-This is a repository for my differentiator. 
+This is a project that can differentiate any function you write in file func.txt. 
 
 ## How to use
 
-Firstly you should copy my repository to your computer, using "For Usage". Then you should write your function in file func.txt and now you can run it by make(whether you changed any code) or ./app if you didn't change anything. There are 2 dumps: viz and tex. You can watch tex one in online 
-https://www.overleaf.com, but you should add here imgs folder.
+After differentiation there are 2 dumps: graph viz and tex dump. If you are using MacOS as me, you can watch tex dump in
+https://www.overleaf.com.
 For usage:
 
 ```
@@ -16,4 +16,3 @@ cd Differentiator
 make
 ./app
 ```
-# Differentiator
