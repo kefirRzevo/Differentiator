@@ -1,0 +1,4 @@
+logfiles/
+app
+*.o
+
